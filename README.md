@@ -57,6 +57,15 @@ Onde se pede o email, existe um exemplo escrito senha e os caracteres estão ocu
 # Avaliação de Codificação
 Considerações arquivo por arquivo
 
-- **calendario.html** - Senti falta de mais detalhes e informações sobre os eventos do calendário. Também queria ver mais tag's de HTML5, utilizou muitas tag's de HTML4. 
+- **calendario.html** - Senti falta de mais detalhes e informações sobre os eventos do calendário. Também queria ver mais tag's de HTML5, utilizou muitas tag's de HTML4, usamos muitas DIVs. 
+    - o css ficou visualmente bem organizado (mas precisa tomar cuidado com valores fixados com PX, uma opção é utilizar % ).
 
-- **cmdca.html** - Legal, utilizou tag's de HTML5, 
+- **cmdca.html** - Não utilizou tag's de HTML5. Alguns elementos funcionaram a responsividade, outros falharam e criaram barra de rolagem horizontal. 
+Problemas já citados:
+    - (linha 47 - uso de (ç) simbolos especiais no href)
+    - (linha 66 - uso de (çõ) simbolos especiais no href)
+    - css - (linha 55 e linha 61 - usou o mesmo nome (pessoa) para o #ID e para a .CLASSE, isso pode confundir ).
+    - o css ficou visualmente bem organizado (mas precisa tomar cuidado com valores fixados com PX, uma opção é utilizar % ).
+
+- **conselho.html** - Não utilizou tag's de HTML5. Alguns elementos funcionaram a responsividade, outros falharam e criaram barra de rolagem horizontal. 
+    - o css ficou visualmente bem organizado (mas precisa tomar cuidado com valores fixados com PX, uma opção é utilizar % ).
