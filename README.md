@@ -68,11 +68,28 @@ Considerações arquivo por arquivo
 
 - **cmdca.html** - A começar o nome do arquivo deveria ser **index.html**. Para que o navegador entenda que se trata da página incial. Utilizou poucas tag's de HTML5. Alguns elementos funcionaram a responsividade, outros falharam e criaram barra de rolagem horizontal.
 Problemas já citados:
-    - (linha 5 - Falta de padrão no *title*)
-    - (linha 27 - sem funcionalidade) - Os icones de acessibilidade não funcionam
-    - (linha 47 - uso de (ç) simbolos especiais no href)
-    - (linha 66 - uso de (çõ) simbolos especiais no href)
-    - css - (linha 55 e linha 61 - usou o mesmo nome (pessoa) para o #ID e para a .CLASSE, isso pode confundir ).
+    - (linha 5 - Falta de padrão no *title*).
+    - (linha 27 - sem funcionalidade) - Os icones de acessibilidade não funcionam.
+    - (linha 32 - Erro de português) - Falta de acentuação em *Noticias*.
+    - (linha 39 - Erro de português) - Falta de acentuação em *Calendario*.
+    - (linha 47 - uso de (ç) simbolos especiais no href).
+    - (linha 51 - Erro de português) - Falta de acentuação em *Uteis*.
+    - (linha 59 - Erro concordância) - Falta de concordância com plural em *Adolescente*.
+    - (linha 66 - uso de (çõ)) -  simbolos especiais no href.
+    - (linha 73 - sem funcionamento) - Não será penalizado porque não sei se foram ensinados a configurar essa funcionalidade.
+    - (linha 83 - variável ID poderia ter um nome melhor)
+    - (linha 86 - variável ID poderia ter um nome melhor)
+    - (linha 90 - variável ID poderia ter um nome melhor)
+    - (linha 103 - variável CLASS poderia ter um nome melhor)
+    - (linha 104 - variável ID poderia ter um nome melhor)
+    - (linha 108 - variável CLASS poderia ter um nome melhor)
+    - (linha 109 - variável ID poderia ter um nome melhor)
+    - (linha 113 - variável CLASS poderia ter um nome melhor)
+    - (linha 114 - variável ID poderia ter um nome melhor)
+    - (linha 119 - variável CLASS poderia ter um nome melhor)
+    - (linha 121 - variável CLASS poderia ter um nome melhor)
+    - CSS - (linha 55 e linha 61 - usou o mesmo nome (pessoa) para o #ID e para a .CLASS, isso pode confundir ).
+    - CSS - (linas 5-9) não utilizadas.
     - o css ficou visualmente bem organizado (mas precisa tomar cuidado com valores fixados com PX, uma opção é utilizar % ).
     - Muito bom a intenção de fazer o menu adaptativo à tela com @media, mas precisa de revisão porque ainda falha.
 
@@ -85,10 +102,11 @@ Problemas já citados:
     - (linha 102 - erro de português) - na palavra *Instituto*
     - Os erros anteriores se repetem, consequência de *(Ctrl + C) e (Ctrl + V)* e pouca criatividade.
     - o CSS ficou visualmente bem organizado (mas precisa tomar cuidado com os nomes das classes e id's e com os valores fixados com PX, uma opção é utilizar % ). Interessante seguir o mesmo padrão ao renomear o arquivo CSS da mesma forma do arquivo HTML. 
-    - Muito bom o uso de comentários no código do CSS.
+    - Muito bom o uso de comentários no código do CSS. Mas a palavra *ultilizada* foi escrita errada e ficou repetida várias no código vezes.
 
 - **contato.html** - Não utilizou tag's de HTML5. A responsividade funcionou em 30% das coisas. Fez o formulário sem utilizar a TAG FORM.
     - (linha 5 - falta de padrão no *title*)
+    - (linhas 77-83) - a aplicação de LABEL é indicada para legenda de um campo de formulário. Espera-se utilizar input após usar a LABEL. Foi usado de forma equivocada. 
     - Fez todo o formulário sem pelo meno um placeholder. 
     - O tipo de todos os campos são TEXT, não encontrei uma máscara de email ou de telefone.
     - O botão de enviar do formulário não tem pelo menos um SUBMIT.
@@ -96,22 +114,27 @@ Problemas já citados:
     - Muito bom o uso de comentários no código do CSS. Mas achei erro de português. Sim, mesmo que no comentário, continua sendo erro. E o ideal seria colocar primeiro o comentário e depois escrever o código da classe.
     - *Preenchi o formulário, mas não recebi nenhum email de confirmação, não posso avaliar isso porque não sei se vocês aprenderam a configurar um form em situação de funcionamento real.*
 
-- **criancas.html** -
-    - (linha 5 - falta de padrão no *title*)
+- **criancas.html** - Comentou hein! Mas tá bom.
+    - (linha 5 - falta de padrão no *title*).
+    - (linha 79) - trecho de texto com erro de digitação *cuida especificamente dos direitos "dos" das crianças*.
+    - (linha 87) - trecho com erro na quebra de linha.
+    - (linha 88) - trecho com erro na quebra de linha.
+    - (linha 89) - trechos com erro na quebra de linha.
+    - CSS - o css também ficou bem comentado, observar que na linha 7 faltou letra na palavra *alinhar*.
 
 - **doacao.css** -
-    este arquivo deveria estar na pasta *css*
+    este arquivo deveria estar na pasta *css*.
 
-- **doaçoes.html** - A começar pelo nome do arquivo, que não deveria ter acentuação
-    - (linha 6 - falta de padrão no *title*)
+- **doaçoes.html** - A começar pelo nome do arquivo, que não deveria ter acentuação.
+    - (linha 6 - falta de padrão no *title*).
 
 - **documentos.html** -
-    - Não existe *title* na página
+    - Não existe *title* na página.
 
 - **eleições.html** - a começar pelo nome do arquivo, que não pode conter acentuação.
     - Não existe *title* na página.
 
-- **foto.jgp** - o arquivo deveria estar na pasta imagens
+- **foto.jgp** - o arquivo deveria estar na pasta imagens.
 
 - **galeria.html** -
     - (linha 7 - falta de padrão no *title*)
@@ -132,6 +155,15 @@ Problemas já citados:
     - o arquivo deveria estar na pasta css
 
 - **novo.html** -
-    - (lina 2 - idioma) - Idioma da página se encontra em inglês. Quando o navegador abre, pergunta se eu desejo traduzir a página 🤷‍
-    - Não existe *title* na página
+    - (linha 2 - idioma) - Idioma da página se encontra em inglês. Quando o navegador abre, pergunta se eu desejo traduzir a página 🤷‍.
+    - Não existe *title* na página.
 
+- **projetos.html** -
+    - (linha 5 - falta de padrão no *title*).
+
+- **site2.html** -
+    - (linha 5 - falta de padrão no *title*).
+    - Não é uma boa prática usar a estilização CSS dentro da própria página.
+
+- **somos.html** -
+    - (linha 4 - falta de padrão no *title*) - existe, mas é como se não existisse.
