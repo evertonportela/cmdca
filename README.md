@@ -120,39 +120,52 @@ Problemas já citados:
     - (linha 87) - trecho com erro na quebra de linha.
     - (linha 88) - trecho com erro na quebra de linha.
     - (linha 89) - trechos com erro na quebra de linha.
-    - CSS - o css também ficou bem comentado, observar que na linha 7 faltou letra na palavra *alinhar*.
+    - CSS - o css ficou bom, tratando dos tamanhos de forma percentual, só não ficou top porque a imagem quebrou a responsividade quando eu mudei o tamanho da tela. Também ficou bem comentado, observar que na linha 7 faltou letra na palavra *alinhar*.
 
 - **doacao.css** -
-    este arquivo deveria estar na pasta *css*.
+    Este arquivo deveria estar na pasta *css*. Ou deveria ter sido apagado já que não está sendo usado.
 
 - **doaçoes.html** - A começar pelo nome do arquivo, que não deveria ter acentuação.
+    - (linha 2 - idioma) - Idioma da página se encontra em inglês. Quando o navegador abre, pergunta se eu desejo traduzir a página 🤷‍.
     - (linha 6 - falta de padrão no *title*).
+    - (linha 78 - variável de pouco significado) - a-b não é um bom nome de variável.
+    - (linha 91 - erro de digitação) - no trecho *E-mail ou numero de celular*
 
 - **documentos.html** -
     - Não existe *title* na página.
+    - (linha 76) - não é aconselhado usar a palavra reservada "div", pode confundir e dar problema no CSS.
+    - (linha 77 - variável de pouco significado) - img não é um bom nome de variável para ID.
 
 - **eleições.html** - a começar pelo nome do arquivo, que não pode conter acentuação.
     - Não existe *title* na página.
+    - (linha 2 - idioma) - idioma da página está em inglês.
+    - (linha 9) - link para arquivo css que não está sendo utilizado na página.
+    - (linha 79 - variável de pouco significado) - img não é um bom nome de variável para CLASS, pode causar problemas no lado do CSS.
+    - (linha 95 - erro de digitação) - no trecho *em dia e documento com fot*
 
 - **foto.jgp** - o arquivo deveria estar na pasta imagens.
 
-- **galeria.html** -
-    - (linha 7 - falta de padrão no *title*)
+- **galeria.html** - o arquivo nem está sendo usado no site.
+    - (linha 7 - falta de padrão no *title*).
 
-- **leis.html** -
+- **leis.html** - Seria legal usar mais tag's de HTML5.
     - (linha 6 - falta de padrão no *title*)
+    - (linha 77 - variável de pouco significado) - 'cm' não é um bom nome de variável para CLASS, pode causar problemas no lado do CSS.
+    - (linha 79 - variável de pouco significado) - 'c' não é um bom nome de variável para CLASS, pode causar problemas no lado do CSS.
+    - (linha 80) - trecho com erro de digitação *DECRETO 1066-2018 COMPOSIÇÃO DO CMDI*
+    - (linha 92) - trecho com erro de digitação, consequência do *Ctrl + C*, em *de Criação do CMDCA-Rio*
 
 - **login.html** -
     - (linha 5 - falta de padrão no *title*)
-
-- **galeria.html** -
-    - (linha 7 - falta de padrão no *title*)
+    - (linha 20-21) - O label solicita o nome da pessoa, mas o placeholder exemplifica um e-mail. 
+    - (linha 25-26) - O label solicita o e-mail da pessoa, mas o placeholder exemplifica a senha. E era bom deixar a senha com os caracteres ocultados.
+    - (linha 37) - A descrição do botão deveria ser *Página Inicial*.
 
 - **noticia.html** -
-    - (linha 6 - falta de padrão no *title*)
+    - (linha 5 - falta de padrão no *title*).
 
-- **novo.html** -
-    - o arquivo deveria estar na pasta css
+- **novo.css** -
+    - o arquivo deveria estar na pasta css.
 
 - **novo.html** -
     - (linha 2 - idioma) - Idioma da página se encontra em inglês. Quando o navegador abre, pergunta se eu desejo traduzir a página 🤷‍.
