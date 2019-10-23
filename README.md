@@ -164,7 +164,8 @@ Problemas já citados:
 - **noticia.html** -
     - (linha 5 - falta de padrão no *title*).
     - (linha 78 - variável de pouco significado) - 'div1' não é um bom nome de variável para CLASS, pode causar problemas no lado do CSS.
-    Porque utilizar uma classe para cada notícia, se no fim todas recebem praticamente os mesmos parâmetros. Classe tem o objetivo de ser feito uma vez e reaproveitado durante o código, não precisaria criar img1, img2 e img3...    
+    Porque utilizar uma classe para cada notícia, se no fim todas recebem praticamente os mesmos parâmetros. Classe tem o objetivo de ser feito uma vez e reaproveitado durante o código, não precisaria criar img1, img2 e img3...
+    Se fosse feita uma configuração diferente para cada elemento, deveria ter sido usado ID.
 
 - **novo.css** -
     - o arquivo deveria estar na pasta css.
@@ -175,10 +176,17 @@ Problemas já citados:
 
 - **projetos.html** -
     - (linha 5 - falta de padrão no *title*).
+    - (linha 81 - variável de pouco significado) - 'div1' não é um bom nome de variável para CLASS, pode causar problemas no lado do CSS.
+    Porque utilizar uma classe para cada projeto, se no fim todas recebem praticamente os mesmos parâmetros. Classe tem o objetivo de ser feito uma vez e reaproveitado durante o código, não precisaria criar div1, div2 e div3...
+    Se fosse feita uma configuração diferente para cada elemento, deveria ter sido usado ID.
+    - (linha 88 - variável de pouco significado) - 'img1' não é um bom nome de variável para CLASS, pode causar problemas no lado do CSS.
 
 - **site2.html** -
     - (linha 5 - falta de padrão no *title*).
     - Não é uma boa prática usar a estilização CSS dentro da própria página.
+    - Não foi utilizado no site.
 
 - **somos.html** -
     - (linha 4 - falta de padrão no *title*) - existe, mas é como se não existisse.
+    - (linha 86 - erro de português) - no trecho *TÃO IMPORTANTE 'Á' EXISTÊNCIA DO*  o (a) em destaque não recebe crase, se era essa a intenção.
+    - 👏🏽 nem usou CSS
