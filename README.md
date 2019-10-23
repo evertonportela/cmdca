@@ -32,11 +32,11 @@ A mesma coisa acontece em (Crianças e Adolescentes >> Finanças)
 
 * Em **login.html** o formulário de acesso restrito está passando dicas de preenchimentos distorcidas:
 
-Da Página Inicial para a Página Eleições e na sequência ao clicar novamente em Eleições, o link leva para o arquivo **novo.html**. Que está inacabado e não dá opções de ir a nenhum outro lugar.
-
 Onde se pede o nome, existe um exemplo de e-mail no placehold.
 
 Onde se pede o email, existe um exemplo escrito senha e os caracteres estão ocultos.
+
+Da Página Inicial para a Página Eleições e na sequência ao clicar novamente em Eleições, o link leva para o arquivo **novo.html**. Que está inacabado e não dá opções de ir a nenhum outro lugar.
 
 * Barra de pesquisa não está funcional.
 
@@ -163,6 +163,8 @@ Problemas já citados:
 
 - **noticia.html** -
     - (linha 5 - falta de padrão no *title*).
+    - (linha 78 - variável de pouco significado) - 'div1' não é um bom nome de variável para CLASS, pode causar problemas no lado do CSS.
+    Porque utilizar uma classe para cada notícia, se no fim todas recebem praticamente os mesmos parâmetros. Classe tem o objetivo de ser feito uma vez e reaproveitado durante o código, não precisaria criar img1, img2 e img3...    
 
 - **novo.css** -
     - o arquivo deveria estar na pasta css.
